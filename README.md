@@ -6,7 +6,7 @@
 
 1. **Clone the provided repository**
    ```bash
-   git clone https://github.com/Neerajvs32/Test1.git
+   git remote add origin https://github.com/Shushanth13/opportunity-management-flask.git
    ```
 
 2. **Create your own GitHub repository**
