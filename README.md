@@ -1,42 +1,39 @@
-# 📘 CertifyMe — Full Stack Intern Assessment
+CertifyMe — Full Stack Intern Assessment
 
 ---
 
-## 🚀 Getting Started
+Getting Started
 
-1. **Clone the provided repository**
+1. Clone the provided repository**
    ```bash
    git remote add origin https://github.com/Shushanth13/opportunity-management-flask.git
    ```
 
-2. **Create your own GitHub repository**
+2. Create your own GitHub repository**
    - Push the cloned project to your own GitHub account.
    - Share your repository link after completing the task.
 
-3. **Development Requirement**
+3. Development Requirement**
    - Both Frontend and Backend must run together.
    - The UI must remain exactly the same.
-   - ❌ Do NOT modify frontend design or components.
-   - ✅ Build the backend required for the existing UI functionality.
+   - Do NOT modify frontend design or components.
+   - Build the backend required for the existing UI functionality.
 
 ---
 
-## 🏢 Project Overview
+Project Overview
 
 This project is part of the **CertifyMe Full Stack Intern Assessment**. The repository already contains a complete Admin UI. Your responsibility is to **build the backend and connect it with the existing frontend**.
 
-### Objectives
+Objectives
 - Build backend APIs using Flask
 - Connect frontend with backend
 - Store and retrieve data from database
 - Make the application fully functional
 
-### 🔗 Original Repository
-[https://github.com/Neerajvs32/Test1](https://github.com/Neerajvs32/Test1)
-
 ---
 
-## ⚙️ Tech Stack
+Tech Stack
 
 | Layer | Technology |
 |---|---|
@@ -47,36 +44,36 @@ This project is part of the **CertifyMe Full Stack Intern Assessment**. The repo
 
 ---
 
-## 🧩 Features & User Stories
+Features & User Stories
 
 ---
 
-### ✅ Task 1 — Authentication *(Day 1)*
+Task 1 — Authentication *(Day 1)*
 
 ---
 
-#### US-1.1 — Admin Sign Up
+US-1.1 — Admin Sign Up
 
-**Required Fields**
+Required Fields**
 - Full Name
 - Email
 - Password
 - Confirm Password
 
-**Validations**
+Validations**
 - All fields mandatory
 - Email must be valid
 - Password minimum 8 characters
 - Passwords must match
 - Email must be unique
 
-**Expected Result**
+Expected Result**
 - Save admin account
 - Redirect to Login page
 
 ---
 
-#### US-1.2 — Admin Login
+US-1.2 — Admin Login
 
 **Fields**
 - Email
@@ -118,7 +115,7 @@ This project is part of the **CertifyMe Full Stack Intern Assessment**. The repo
 
 ---
 
-### ✅ Task 2 — Opportunity Management *(Day 2)*
+Task 2 — Opportunity Management *(Day 2)*
 
 > All opportunities must be stored in the database, linked to the logged-in admin, and must never use hardcoded data.
 
